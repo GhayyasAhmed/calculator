@@ -1,0 +1,68 @@
+body{
+    background-image: url('backgrndimg.jpg');
+    background-repeat: repeat;
+}
+.main {
+    border: 2px solid rgb(241, 148, 250);
+    width: 345px;
+    height: 362px;
+    margin: 70px auto;
+    background-color: rgb(180, 148, 245);
+   
+}
+.result{
+    margin-top: 25px;
+    height: 35px;
+    width: 94%;
+    margin-left: 2%;
+    background-color: rgb(125, 205, 241);font-size: 18px;
+    border: 1px solid rgb(241, 148, 244);
+     
+}
+
+.clearbtn,.btn,.halfbtn{
+    background-color: rgb(125, 205, 241);
+    height: 40px;
+    width: 23%;
+    margin-left: 1% ;
+    margin-top: 5px;
+    font-size: 18px;
+    border: 0px;
+}
+.clearbtn:hover,.btn:hover,.halfbtn:hover{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+.clearbtn{
+    margin-top: 25px !important;
+}
+.material-icons{
+    font-size: 16px !important;
+    margin-top: 2px !important;
+}
+
+h1{
+text-align: center;
+font-size: 50px;
+color: rgb(206, 20, 212);
+text-shadow: 10px 12px 12px;
+}
+
+.end{
+text-align: center;
+font-size: 40px;
+color: rgb(206, 20, 212);
+text-shadow: 8px 8px 8px;
+width: 450px;
+margin-left: -55px;
+}
+
+@media screen and (max-width: 500px){
+    .end{
+        margin-left: -48px;
+        font-size: 30px;
+    }
+    .main{
+        margin: 70px 10px;
+    }
+}
